@@ -31,8 +31,10 @@ class ViewController: UIViewController {
         label.font = UIFont.systemFont(ofSize: 20)
         label.text = "João Pessoa"
         label.textAlignment = .center
+        label.textColor = UIColor(named: "PrimaryColor")
         return label
     }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
